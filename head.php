@@ -33,7 +33,7 @@
         <link rel="me" href="http://twitter.com/<?=$strTwitterName?>">
     <?php endif;
 
-    if ($strShowShortURLs): // Should we show a shortened URL? 
+    if ($strShowShortURLs): // Should we show a shortened URL? Moved to separate branch.
         //$strShortURL = NULL;
         $strURLShortner = "http://is.gd/create.php?format=simple&url=";
         //print $strURLShortner;
