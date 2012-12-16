@@ -1,0 +1,5 @@
+# Tool for generating a more specific version: http://is.gd/rNSHXQ
+User-agent: *
+Disallow: 
+# Uncomment if you are using a sitemap
+#Sitemap: http://www.yoursite.com/sitemap.gz

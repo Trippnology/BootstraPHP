@@ -1,6 +1,6 @@
-#BootstraPHP v0.1
+#BootstraPHP v0.1.1
 
-Demo: http://bootstraphp.trippnology.net/
+Demo: [BootstraPHP](http://bootstraphp.trippnology.net/)
 
 ##About
 
