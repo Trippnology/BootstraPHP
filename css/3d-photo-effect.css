@@ -1,0 +1,89 @@
+/* 
+  3D Photo Effect
+  Homepage: http://github.com/codepo8/3D-photo-rollover
+  Copyright (c) 2011 Christian Heilmann
+  Code licensed under the BSD License:
+  http://wait-till-i.com/license.txt
+*/
+.image3d {
+  position: relative;
+  overflow: hidden;
+  margin: 0 0 1em 0;
+  width: 300px;
+  height: 200px;
+  background: #fff;
+  background: -webkit-linear-gradient( #000, #222 );
+  background: -moz-linear-gradient( #000, #222 );
+  background: -ms-linear-gradient( #000, #222 );
+  background: -o-linear-gradient( #000, #222 );
+  box-shadow: 4px 4px 10px rgba( 0, 0, 0, 0.6 );
+
+  /* define a perspective of 800 pixels */
+  list-style: none;
+  font-size: 20px;
+  -webkit-perspective: 800px;
+     -moz-perspective: 800px;
+      -ms-perspective: 800px;
+       -o-perspective: 800px;
+          perspective: 800px;
+}
+
+.image3d img {
+  /* smoothly transition any changes to the image in a second */
+  -webkit-transition: all 1s;
+     -moz-transition: all 1s;
+      -ms-transition: all 1s;
+       -o-transition: all 1s;
+          transition: all 1s;
+}
+.image3d figure { margin:0; }
+.image3d figure:hover img,.image3d figure:focus img  {
+  opacity:0.4;
+  /* rotate the image and move it to the back */
+  -webkit-transform: rotateY( 50deg ) rotateX( 10deg )
+                     translate3d( 80px, -20px, -100px );
+  -moz-transform:    rotateY( 50deg ) rotateX( 10deg )
+                     translate3d( 80px, -20px, -100px );
+  -ms-transform:     rotateY( 50deg ) rotateX( 10deg )
+                     translate3d( 80px, -20px, -100px );
+  -o-transform:      rotateY( 50deg ) rotateX( 10deg )
+                     translate3d( 80px, -20px, -100px );
+  transform:         rotateY( 50deg ) rotateX( 10deg )
+                     translate3d( 80px, -20px, -100px );    
+}
+.image3d figcaption {
+  position: absolute;
+  bottom: 10px;
+  left: 300px;
+  width: 230px;
+  border-radius: 5px;
+  background: rgba( 0, 0, 0, 0.7 );
+  color: #fff;
+  -webkit-transition: all 1s;
+     -moz-transition: all 1s;
+      -ms-transition: all 1s;
+       -o-transition: all 1s;
+          transition: all 1s;
+
+}
+.image3d:hover figcaption, .image3d:focus figcaption {
+  left: 80px;
+  -webkit-transition: all 1s;
+     -moz-transition: all 1s;
+      -ms-transition: all 1s;
+       -o-transition: all 1s;
+          transition: all 1s;
+}
+.image3d figcaption strong {
+  display: block;
+  padding: 5px 0;
+  color: lime;
+  font-weight: normal;
+  font-size:22px;
+}
+.image3d figcaption p {
+  display: block;
+  padding: 5px;
+  color: white;
+}
+/* End 3D Photo Effect */

@@ -1,0 +1,11 @@
+<a href="https://twitter.com/share" 
+class="twitter-share-button" 
+data-url="<?=$siteDomain?><?=$strCanonical?>"
+data-text="<?=$strPageName?>"
+data-lang="en"
+data-count="none" 
+data-via="<?=$socialTwitterName?>" 
+data-related="<?=$socialTwitterName?>" 
+data-counturl="<?=$siteDomain?><?=$strCanonical?>" 
+rel="nofollow" 
+data-dnt="true">Tweet</a>
