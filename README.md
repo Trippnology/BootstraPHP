@@ -21,7 +21,7 @@ to copy, distribute, hack, slice, make derivatives and even to make
 commercial use of it provided that you both credit [Trippnology](http://www.trippnology.com/) and
 release your work under a licence identical to this one.
 
-Please be aware that some of the components of Bootstrasp are covered by
+Please be aware that some of the components of BootstraPHP are covered by
 different licenses which are listed below.
 
 ###What’s included
