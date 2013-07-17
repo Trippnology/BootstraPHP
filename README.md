@@ -66,7 +66,6 @@ Page Blocks:
 - 	sidebar.php Reusable sidebar content.
 - 	footer.php Copyright info and social links.
 - 	share.php Social buttons.
-- 	modal-global.php A modal window available to all pages.
 - 	dev.php Useful development tools (remove for production).
 
 ###TODO
