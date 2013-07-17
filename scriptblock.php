@@ -18,12 +18,6 @@
 <script src="js/script.js"></script>
 <!-- end scripts-->
 
-<!--[if lt IE 7 ]>
-<script src="http://cachedcommons.org/cache/dd-belated-png/0.0.8/javascripts/dd-belated-png-min.js"></script>
-<script>window.jQuery || document.write("<script src="js/libs/dd-belated-png-0.0.8-min.js"></script>")</script>
-<script>DD_belatedPNG.fix("img, .png_bg");</script>
-<![endif]-->
-
 <!-- Google Analytics -->
 <script>
 	var _gaq=[["_setAccount","<?=$adminGoogleAnalID?>"],["_trackPageview"]];
